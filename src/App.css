@@ -1,0 +1,156 @@
+/* ✅ Fix background color */
+body {
+  background-color: black;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+/* ✅ Make headings stand out */
+h1,
+h2 {
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffffff; /* Keep the gold color */
+}
+
+/* ✅ Make "Submit Your Movie Pick" smaller & gray */
+.form-title {
+  font-family: "Helvetica Neue", Arial, sans-serif; /* Clean, readable font */
+  font-size: 24px; /* Smaller size */
+  font-weight: lighter;
+  color: #b3b3b3; /* Gray color */
+  margin-bottom: 10px;
+}
+
+/* ✅ Style h1 differently for a cinematic effect */
+h1 {
+  font-size: 60px;
+}
+
+/* ✅ General text elements */
+p,
+input,
+textarea,
+button {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 18px;
+}
+
+/* Default button styling */
+button {
+  border: 1px solid #636363; /* Outline only */
+  background: transparent; /* No background */
+  color: #ffff; /* Off-white text */
+  padding: 10px 20px;
+
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ✅ Hover Effect: Warm Gray */
+button:hover {
+  background-color: #000000; /* Warm gray */
+  color: #ffffff; /* Keep text white */
+  border-color: #ffffff; /* Slightly lighter border */
+}
+
+/* ✅ Fix the layout of the app */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center everything properly */
+  padding: 20px;
+}
+
+.club-logo {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+/* ✅ Fix image styling */
+.theme-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+/* ✅ Modern input styling (OUTLINE ONLY, NO BACKGROUND) */
+.movie-form input,
+.movie-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #636363; /* Outline only */
+  background: transparent; /* No background */
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  outline: none;
+}
+
+/* ✅ Make placeholder text visible */
+.movie-form input::placeholder,
+.movie-form textarea::placeholder {
+  color: rgba(233, 231, 230, 0.7);
+  font-weight: bold;
+}
+
+/* ✅ Ensure the description box is larger */
+.movie-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+/* ✅ Fix alignment */
+.movie-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Ensures inputs are centered */
+  width: 100%;
+}
+
+/* ✅ Add space above the submit button */
+.movie-form button {
+  margin-top: 10px; /* Adjust this value as needed */
+}
+
+/* ✅ Success message after submission */
+.success-message {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* ✅ Improve readability in form input boxes */
+.movie-form input,
+.movie-form textarea {
+  font-family: "Helvetica Neue", Arial, sans-serif; /* Clean, readable font */
+  font-size: 18px; /* Make text easy to read */
+  text-transform: none; /* Ensure lowercase is allowed */
+  color: #e9e7e6; /* Keep text color consistent */
+  background: transparent; /* No background */
+  border: 2px solid #e9e7e6; /* Outline only */
+  padding: 12px;
+  border-radius: 8px;
+  text-align: left; /* Align text to left instead of center */
+}
+
+/* ✅ Make placeholder text visible and stylish */
+.movie-form input::placeholder,
+.movie-form textarea::placeholder {
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  color: rgba(233, 231, 230, 0.7);
+  font-weight: lighter;
+  font-stretch: semi-expanded;
+  text-transform: none; /* Allow lowercase in placeholders */
+}
