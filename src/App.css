@@ -162,7 +162,7 @@ button:hover {
 
 .back-link {
   color: #ffffff; /* White text */
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 18px;
   font-family: "Helvetica Neue";
   font-weight: lighter;
