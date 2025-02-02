@@ -15,6 +15,13 @@ function App() {
       <LatestMovieTheme setThemeTitle={setThemeTitle} />
 
       <MovieSubmissionForm themeTitle={themeTitle} />
+
+      {/* Add the "Back to movieclub" link */}
+      <div className="back-link-container">
+        <a href="https://www.badovinac.ca" className="back-link">
+          Back to movieclub
+        </a>
+      </div>
     </div>
   );
 }

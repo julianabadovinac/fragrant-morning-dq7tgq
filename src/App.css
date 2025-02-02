@@ -154,3 +154,24 @@ button:hover {
   font-stretch: semi-expanded;
   text-transform: none; /* Allow lowercase in placeholders */
 }
+
+/* ✅ Style the "Back to MovieClub" link */
+.back-link-container {
+  margin-top: 40px; /* Adds space above the link */
+}
+
+.back-link {
+  color: #ffffff; /* White text */
+  text-decoration: underline;
+  font-size: 18px;
+  font-family: "Helvetica Neue";
+  font-weight: lighter;
+  display: inline-block;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.back-link:hover {
+  color: #e9e7e6; /* Slightly off-white for a hover effect */
+  text-decoration: underline;
+}
